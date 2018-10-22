@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Seonghye's page </title>
+	<style>
+	#header{
+		text-align:center;
+		width:100%;
+		height:150px;
+	}
+	#nav{
+		width:100%;
+		height:35px;
+		font-size:20px;
+		background-color:#1E90FF;
+	}
+	#content{
+		background-image:url('background.jpg');
+		background-repeat:repeat;
+		padding:10px;
+		margin:0px;
+
+	}
+	#snowboard{
+		width:80%;
+		margin-left:auto;margin-right:auto;
+		margin-top:10px;margin-bottom:10px;
+		padding-left:30px;
+		background-color:#ADD8E6;
+		border: 1px solid;
+		border-color: #1E90FF;
+		border-radius:10px;
+	}
+	#zumba{
+		width:80%;
+		margin-left:auto;margin-right:auto;
+		margin-top:10px;margin-bottom:10px;
+		padding-left:30px;
+		background-color:#ADD8E6;
+		border: 1px solid;
+		border-color: #1E90FF;
+		border-radius:10px;
+	}
+	#for_image{
+		text-align:center;
+	}
+	img{
+		margin:0px 20px;
+
+	}
+	h2{
+		text-align:center;
+		font-size:30px;
+	}
+	p{
+		font-size:20px;
+	}
+	span{
+		font-size:22px;
+		font-weight:bold;
+	}
+	ul{
+		padding:3px 3px 3px 3px;
+		text-align:center;
+	}
+	ul li{
+		display:inline;
+		padding:0px 30px;	
+	}
+	ul li a{
+		text-decoration:none;
+		color:#BBBBBB;
+	}
+	ul li a:hover{
+		font-size:22px;
+		color:white;
+	}
+
+	@keyframes myanim{
+		0% {left:100px; bottom:10px;}
+		/*25% {left:500px;bottom:10px;}*/
+		50% {left:1000px;bottom:10px;}
+		/*75% {left:500px;bottom:10px;}*/
+		100% {left:100px;bottom:10px;}
+	}
+	#moving{
+		width:100px;
+		height:100px;
+		position:relative;
+		left:100px; bottom:10px;
+		animation: 20s myanim;
+		animation-iteration-count: infinite;
+
+	}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+		<a id="home_ref" href="main.html">
+			<img src="logo.jpg" width="500" height="150">
+		</a>	
+	</div>
+	<div id="nav">
+		<ul>
+			<li> <a href="self-intro.html">자기소개</a></li>
+			<li> <a href="exercise.html">운동 </a></li>
+			<li> <a href="travel.html">여행</a></li>
+			<li> <a href="favorite.html">좋아하는 콘텐츠 </a></li>
+			<li> <a href="contact.html">Contact me</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div id="snowboard">
+			<h2> 스노우 보드</h2>
+			<div id="for_image"><img src="snowboard.jpg" width="500" height="300"></div>
+			<p> 스노보드(snowboard)는 눈 위에서 탈 수 있는 넓은 스키 형태의 장비 또는 그 장비를 사용해 눈 덮인 슬로프를 내려오는 스포츠를 말한다. 보드 하나 당 1인 사용이며 주로 스키장의 슬로프 위에서 즐길 수 있다. 타는 방법은 스키와 비슷하지만 두 발이 하나의 판에 묶여 있어 스키보다 다소 위험할 수도 있다. 스노보드를 타는 것을 지칭하는 스노보딩(Snowboarding)은 스키와 스케이팅, 서핑을 하나로 조합한 것이라 할 수 있다.</p>
+			<h4> 스노보드 장비 </h4>
+			<p> 스노보드의 몸체는 보드, 바인딩, 부츠로 이루어져 있다. <br>
+			<b>보드</b>: 스노보드 판을 지칭한다. 프리스타일 보드, 알파인 보드의 크게 두 종류가 있으며 프리스타일 보드는 앞코와 뒤꼬리가 위로 올라갔기 때문에 에지를 덜 사용한다. 반면 알파인 보드는 앞코만 약간 올라가고 꼬리는 올라가지 않았기 때문에 에지 전체를 오랫동안 이용할 수 있다. <br>
+			<b>바인딩</b>: 보드와 부츠를 연결해주는 역할을 한다. 플레이트 바인딩, 소프트 바인딩, 퀵타입의 크게 세가지 종류의 바인딩이 있다.<br>
+			<b>부츠</b>: 스노보드를 탈 때 신는 신발이다. 아우터 셸, 이너부츠의 두 층으로 구성되어 있다. 셸의 소재와 그조에 따라 하드 부츠와 소프트 부츠로 나뉜다.</p>
+			<p> 출처: 위키피디아</p>
+		</div>
+		<div id="zumba">
+			<h2> 줌바 댄스 </h2>
+			<div id="for_image"><img src="zumba.jpg" width="500" height="300"></div>
+			<p> 줌바 댄스(Zumba)는 1990 년대 콜롬비아 무용수이자 안무가 인 Alberto Beto Perez가 만든 운동 피트니스 프로그램이다. 줌바는 춤과 에어로빅 운동을 합친 것으로 음악에 맞추어 운동을 한다.</p>
+			<p> 출처: 위키피디아</p>
+		</div>
+		<div id="moving">
+		<img src="moving_snowboard.png" width="100" height="100">
+		</div>
+	</div>
+	
+
+</body>
+</html>
